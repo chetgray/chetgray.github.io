@@ -1,5 +1,8 @@
 title: Chet Gray, human
 
+plugins:
+  - jekyll-redirect-from
+
 repository: chetgray/chetgray.github.io
 
 theme: minima

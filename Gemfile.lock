@@ -243,6 +243,7 @@ DEPENDENCIES
   github-pages
   jekyll-admin
   jekyll-compose
+  jekyll-redirect-from
 
 BUNDLED WITH
    1.16.0.pre.3

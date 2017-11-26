@@ -243,6 +243,7 @@ DEPENDENCIES
   github-pages
   jekyll-admin
   jekyll-compose
+  jekyll-default-layout
   jekyll-redirect-from
 
 BUNDLED WITH

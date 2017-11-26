@@ -1,6 +1,7 @@
 title: Chet Gray, human
 
 plugins:
+  - jekyll-default-layout
   - jekyll-redirect-from
 
 repository: chetgray/chetgray.github.io

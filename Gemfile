@@ -9,5 +9,6 @@ end
 
 # Plugins for deployment (also in plugins array in _config.yml)
 group :jekyll_plugins do
+  gem 'jekyll-default-layout'
   gem 'jekyll-redirect-from'
 end

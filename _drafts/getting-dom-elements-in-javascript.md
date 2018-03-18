@@ -4,11 +4,15 @@ title: Getting DOM Elements in JavaScript
 date: 2018-03-17
 ---
 
-* getElementById
-* getElementsByClassName
-* getElementsByTagName
-* querySelector
-* querySelectorAll
+* `Document.getElementById`
+* `Document.getElementsByClassName`
+* `Element.getElementsByClassName`
+* `Document.getElementsByTagName`
+* `Element.getElementsByTagName`
+* `Document.querySelector`
+* `Element.querySelector`
+* `Document.querySelectorAll`
+* `Element.querySelectorAll`
 
 https://jsperf.com/getelementbyid-vs-queryselector
 
@@ -16,3 +20,10 @@ https://jsperf.com/getelementbyid-vs-queryselector
 `querySelectorAll` returns a static `NodeList`.
 
 `querySelector` and `querySelectorAll` cannot use CSS pseudo-elements in the selector.
+
+`getElementById` can only be called on `document`. The rest can be
+called on `document`, or on any `Element`, whereupon they only return
+decendant `Node`s. However, the selectors for `querySelector` and
+`querySelectorAll` use the full DOM scope, while still only returning
+decendants. Scope can be restricted by adding the `:scope` pseudo-class
+to the beginning of the selector.

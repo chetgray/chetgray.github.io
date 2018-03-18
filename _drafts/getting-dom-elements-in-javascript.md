@@ -16,7 +16,7 @@ date: 2018-03-17
 
 https://jsperf.com/getelementbyid-vs-queryselector
 
-`getElementsByClassName` and `getElementsByTagName` return a live `HTMLCollection`.
+`getElementsByClassName` and `getElementsByTagName` return a live `HTMLCollection` (except, apparently, in Webkit, wherein it returns a `NodeList`. Not sure if it's live or static.).
 `querySelectorAll` returns a static `NodeList`.
 
 `querySelector` and `querySelectorAll` cannot use CSS pseudo-elements in the selector.

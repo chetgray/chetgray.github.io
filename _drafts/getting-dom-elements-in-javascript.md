@@ -9,3 +9,5 @@ date: 2018-03-17
 * getElementsByTagName
 * querySelector
 * querySelectorAll
+
+https://jsperf.com/getelementbyid-vs-queryselector

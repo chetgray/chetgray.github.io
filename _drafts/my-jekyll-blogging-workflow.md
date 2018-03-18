@@ -17,8 +17,15 @@ $ git commit -m 'Write draft for "My New Post"'
 $ bundle exec jekyll serve --drafts
 # ... post looks good ...
 $ bundle exec jekyll publish _drafts/my-new-post.md
+Draft _drafts/my-new-post.md was moved to _posts/2018-03-17-my-new-post.md
 $ git add _drafts/my-new-post.md _posts/2018-03-17-my-new-post.md
 $ git commit -m 'Publish "My New Post"'
+[draft/my-new-post 82cfbf58] Publish "My New Post"
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename _drafts/my-new-post.md => _posts/2018-03-17-my-new-post.md (100%)
 $ git checkout master
+Switched to branch 'master'
 $ git merge draft/my-new-post
+ 1 file changed, 420 insertions(+)
+ created mode 100644 _posts/2018-03-17-my-new-post.md
 ```

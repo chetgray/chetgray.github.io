@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "anteprimorac.html-end-tag-labels",
+        "bierner.markdown-yaml-preamble",
+        "bung87.vscode-gemfile",
+        "ecmel.vscode-html-css",
+        "ginfuru.ginfuru-vscode-jekyll-syntax",
+        "ginfuru.vscode-jekyll-snippets",
+        "mrmlnc.vscode-attrs-sorter",
+        "redhat.vscode-yaml",
+        "rohgarg.jekyll-post",
+        "sissel.shopify-liquid",
+        "zignd.html-css-class-completion",
+    ]
+}
